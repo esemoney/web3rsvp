@@ -1,0 +1,16 @@
+{
+	"name": "web3rsvp",
+	"version": "1.0.0",
+	"description": "web 3 eventbrite via wbw3",
+	"main": "index.js",
+	"scripts": {
+		"script": "node scripts/run.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "esemoney",
+	"license": "ISC",
+	"devDependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^1.0.1",
+		"hardhat": "^2.10.1"
+	}
+}
