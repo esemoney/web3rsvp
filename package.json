@@ -5,12 +5,17 @@
 	"main": "index.js",
 	"scripts": {
 		"script": "node scripts/run.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "npx hardhat run scripts/deploy.js --network mumbai"
 	},
 	"author": "esemoney",
 	"license": "ISC",
 	"devDependencies": {
+		"@nomicfoundation/hardhat-chai-matchers": "^1.0.2",
 		"@nomicfoundation/hardhat-toolbox": "^1.0.1",
 		"hardhat": "^2.10.1"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.1"
 	}
 }
